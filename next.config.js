@@ -9,6 +9,12 @@ const nextConfig = {
         port: "",
         pathname: "/u/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn-images-1.medium.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
