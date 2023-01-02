@@ -5,7 +5,7 @@ interface FlutterCardInterface {
   title: string;
   youtube_link: string;
   github_link: string;
-  dribbble_link: string;
+  dribbble_link?: string;
 }
 
 export default function FlutterCard({
@@ -39,14 +39,16 @@ export default function FlutterCard({
             <IconBrandGithub className="w-4 h-4 mb-0.5" />
             <span>Github</span>
           </Link>
-          <Link
-            href={dribbble_link}
-            target="_blank"
-            className="flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-all text-white bg-neutral-700 hover:bg-pink-600"
-          >
-            <IconBrandDribbble className="w-4 h-4 mb-0.5" />
-            <span>Dribbble</span>
-          </Link>
+          {dribbble_link && (
+            <Link
+              href={dribbble_link}
+              target="_blank"
+              className="flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-all text-white bg-neutral-700 hover:bg-pink-600"
+            >
+              <IconBrandDribbble className="w-4 h-4 mb-0.5" />
+              <span>Dribbble</span>
+            </Link>
+          )}
         </div>
       </div>
     </div>
