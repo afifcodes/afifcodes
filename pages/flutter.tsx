@@ -25,7 +25,7 @@ const Flutter: NextPage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8">
             <FlutterCard
-              title="Album View"
+              title="Spotify"
               youtube_link="https://www.youtube.com/embed/PT8PfXvOuxg"
               github_link="https://github.com/afifudinx/flutter-spotify"
             />
