@@ -30,6 +30,11 @@ const Flutter: NextPage = () => {
               github_link="https://github.com/afifudinx/flutter-album-view"
               dribbble_link="https://dribbble.com/shots/17461178-Album-View"
             />
+            <FlutterCard
+              title="Album View"
+              youtube_link="https://www.youtube.com/embed/PT8PfXvOuxg"
+              github_link="https://github.com/afifudinx/flutter-spotify"
+            />
           </div>
         </div>
       </div>
