@@ -25,6 +25,12 @@ const Flutter: NextPage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8">
             <FlutterCard
+              title="Fashion ECommerce"
+              youtube_link="https://www.youtube.com/embed/v5UTlAf6_mU"
+              github_link="https://github.com/afifudinx/flutter-fashion-ecommerce"
+              dribbble_link="https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application"
+            />
+            <FlutterCard
               title="Spotify"
               youtube_link="https://www.youtube.com/embed/PT8PfXvOuxg"
               github_link="https://github.com/afifudinx/flutter-spotify"
