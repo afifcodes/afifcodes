@@ -25,24 +25,29 @@ const Flutter: NextPage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8">
             <FlutterCard
-              title="Fashion ECommerce Part 2"
+              title="Flutter UI - Job Landing"
+              youtube_link="https://www.youtube.com/embed/rPXYkcQCQXk"
+              github_link="https://github.com/afifudinx/flutter-job-landing"
+            />
+            <FlutterCard
+              title="Flutter UI - Fashion ECommerce Part 2"
               youtube_link="https://www.youtube.com/embed/RhQ-nHy7MJs"
               github_link="https://github.com/afifudinx/flutter-fashion-ecommerce"
               dribbble_link="https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application"
             />
             <FlutterCard
-              title="Fashion ECommerce"
+              title="Flutter UI - Fashion ECommerce"
               youtube_link="https://www.youtube.com/embed/v5UTlAf6_mU"
               github_link="https://github.com/afifudinx/flutter-fashion-ecommerce"
               dribbble_link="https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application"
             />
             <FlutterCard
-              title="Spotify"
+              title="Flutter UI - Spotify"
               youtube_link="https://www.youtube.com/embed/PT8PfXvOuxg"
               github_link="https://github.com/afifudinx/flutter-spotify"
             />
             <FlutterCard
-              title="Album View"
+              title="Flutter UI - Album View"
               youtube_link="https://www.youtube.com/embed/0dhRQOlhY-U"
               github_link="https://github.com/afifudinx/flutter-album-view"
               dribbble_link="https://dribbble.com/shots/17461178-Album-View"

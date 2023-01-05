@@ -29,7 +29,7 @@ export default function FlutterCard({
         className="w-full aspect-square"
       ></iframe>
       <div className="p-4">
-        <p className="mb-2">{title}</p>
+        <h2 className="mb-2">{title}</h2>
         <div className="flex flex-wrap items-center gap-2">
           <Link
             href={github_link}
