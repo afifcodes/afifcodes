@@ -25,6 +25,11 @@ const Flutter: NextPage = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8">
             <FlutterCard
+              title="Flutter UI - Dark Mode Lamp"
+              youtube_link="https://www.youtube.com/embed/sW5-U8oNcoM"
+              github_link="https://github.com/afifudinx/flutter-dark-mode-lamp"
+            />
+            <FlutterCard
               title="Flutter UI - Job Landing"
               youtube_link="https://www.youtube.com/embed/rPXYkcQCQXk"
               github_link="https://github.com/afifudinx/flutter-job-landing"
