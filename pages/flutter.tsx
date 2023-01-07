@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { NextSeo } from "next-seo";
 import Head from "next/head";
 import { useState } from "react";
 import FlutterCard from "../components/molecules/FlutterCard";
@@ -55,8 +56,21 @@ const Flutter: NextPage = () => {
 
   return (
     <div className="font-circular bg-neutral-900 text-white">
+      <NextSeo
+        title="Flutter UI Challenge | Afifudin"
+        description="A curated list of Flutter UI Example including Repository"
+        canonical="https://afifudinx.vercel.app/flutter/"
+        openGraph={{
+          url: "https://afifudinx.vercel.app/flutter/",
+          description:
+            "A curated list of Flutter UI Example including Repository",
+          siteName: "Flutter UI Challenge | Afifudin",
+          type: "website",
+          locale: "id_ID",
+        }}
+      />
       <Head>
-        <title>Flutter UI Challenge</title>
+        <title>Flutter UI Challenge | Afifudin</title>
       </Head>
       <div className="min-h-screen min-w-screen max-w-screen">
         <div className="max-w-6xl mx-auto p-4">

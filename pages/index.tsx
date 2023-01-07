@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className="font-circular bg-neutral-900 text-white">
       <Head>
-        <title>Afifudin | Personal Website</title>
+        <title>Afifudin | Freelancer | Content Creator</title>
       </Head>
       <div className="min-h-screen min-w-screen max-h-screen">
         <div className="max-w-4xl mx-auto min-h-screen flex flex-col items-start justify-center p-2">
