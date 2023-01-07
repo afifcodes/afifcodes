@@ -54,7 +54,7 @@ const Flutter: NextPage = () => {
         <title>Flutter UI Challenge</title>
       </Head>
       <div className="min-h-screen min-w-screen max-w-screen">
-        <div className="max-w-6xl mx-auto p-6">
+        <div className="max-w-6xl mx-auto p-4">
           <div className="p-8 text-center">
             <h1 className="text-xl sm:text-3xl font-bold">
               Flutter UI Challenge
