@@ -6,6 +6,11 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
+      title: "Flutter UI - Rating App",
+      youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
+      github_link: "https://github.com/afifudinx/flutter-rating-app",
+    },
+    {
       title: "Flutter UI - Dark Mode Lamp",
       youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
       github_link: "https://github.com/afifudinx/flutter-dark-mode-lamp",
