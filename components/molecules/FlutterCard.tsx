@@ -14,8 +14,9 @@ export default function FlutterCard({
   github_link,
   dribbble_link,
 }: FlutterCardInterface) {
+  const slug = title.split(" - ")[1].toLowerCase().split(" ").join("-");
   return (
-    <div className="bg-neutral-800 rounded-2xl">
+    <div id={slug} className="bg-neutral-800 rounded-2xl">
       <iframe
         src={youtube_link}
         title={title}
