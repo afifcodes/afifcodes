@@ -6,16 +6,14 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
-      title: "Flutter UI - Spotify",
-      youtube_link: "https://www.youtube.com/embed/PT8PfXvOuxg",
-      github_link: "https://github.com/afifudinx/flutter-spotify",
+      title: "Flutter UI - Dark Mode Lamp",
+      youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
+      github_link: "https://github.com/afifudinx/flutter-dark-mode-lamp",
     },
     {
-      title: "Flutter UI - Fashion ECommerce",
-      youtube_link: "https://www.youtube.com/embed/v5UTlAf6_mU",
-      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
-      dribbble_link:
-        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
+      title: "Flutter UI - Job Landing",
+      youtube_link: "https://www.youtube.com/embed/rPXYkcQCQXk",
+      github_link: "https://github.com/afifudinx/flutter-job-landing",
     },
     {
       title: "Flutter UI - Fashion ECommerce Part 2",
@@ -25,14 +23,16 @@ const Flutter: NextPage = () => {
         "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
     },
     {
-      title: "Flutter UI - Job Landing",
-      youtube_link: "https://www.youtube.com/embed/rPXYkcQCQXk",
-      github_link: "https://github.com/afifudinx/flutter-job-landing",
+      title: "Flutter UI - Fashion ECommerce",
+      youtube_link: "https://www.youtube.com/embed/v5UTlAf6_mU",
+      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
+      dribbble_link:
+        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
     },
     {
-      title: "Flutter UI - Dark Mode Lamp",
-      youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
-      github_link: "https://github.com/afifudinx/flutter-dark-mode-lamp",
+      title: "Flutter UI - Spotify",
+      youtube_link: "https://www.youtube.com/embed/PT8PfXvOuxg",
+      github_link: "https://github.com/afifudinx/flutter-spotify",
     },
     {
       title: "Flutter UI - Album View",
