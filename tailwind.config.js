@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         circular: ["CircularStd", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },

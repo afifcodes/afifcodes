@@ -5,7 +5,7 @@ interface FlutterCardInterface {
   title: string;
   youtube_link: string;
   github_link: string;
-  dribbble_link?: string;
+  dribbble_link: string;
 }
 
 export default function FlutterCard({
@@ -15,22 +15,17 @@ export default function FlutterCard({
   dribbble_link,
 }: FlutterCardInterface) {
   return (
-    <div className="bg-neutral-800 rounded-md">
-      <div className="flex items-center py-2 px-3 gap-2">
-        <div className="w-3 h-3 rounded-full cursor-pointer transition-all bg-neutral-700 hover:bg-red-500" />
-        <div className="w-3 h-3 rounded-full cursor-pointer transition-all bg-neutral-700 hover:bg-yellow-500" />
-        <div className="w-3 h-3 rounded-full cursor-pointer transition-all bg-neutral-700 hover:bg-green-500" />
-      </div>
+    <div className="bg-neutral-800 rounded-2xl">
       <iframe
         src={youtube_link}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        className="w-full aspect-square"
+        className="rounded-t-2xl w-full aspect-[5/3]"
       ></iframe>
       <div className="p-4">
         <h2 className="mb-2">{title}</h2>
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex flex-wrap items-center justify-end gap-2">
           <Link
             href={github_link}
             target="_blank"
@@ -39,7 +34,7 @@ export default function FlutterCard({
             <IconBrandGithub className="w-4 h-4 mb-0.5" />
             <span>Github</span>
           </Link>
-          {dribbble_link && (
+          {dribbble_link !== "" && (
             <Link
               href={dribbble_link}
               target="_blank"

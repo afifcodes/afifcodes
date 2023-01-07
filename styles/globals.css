@@ -50,3 +50,34 @@
   font-weight: 900;
   font-style: italic;
 }
+
+@font-face {
+  font-family: Manrope;
+  src: url("../public/fonts/manrope-v13-latin-regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../public/fonts/manrope-v13-latin-500.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../public/fonts/manrope-v13-latin-600.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../public/fonts/manrope-v13-latin-700.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../public/fonts/manrope-v13-latin-800.woff2");
+  font-weight: 800;
+  font-style: normal;
+}

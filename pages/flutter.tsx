@@ -1,62 +1,93 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import { useState } from "react";
 import FlutterCard from "../components/molecules/FlutterCard";
 
 const Flutter: NextPage = () => {
+  const examples = [
+    {
+      title: "Flutter UI - Spotify",
+      youtube_link: "https://www.youtube.com/embed/PT8PfXvOuxg",
+      github_link: "https://github.com/afifudinx/flutter-spotify",
+    },
+    {
+      title: "Flutter UI - Fashion ECommerce",
+      youtube_link: "https://www.youtube.com/embed/v5UTlAf6_mU",
+      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
+      dribbble_link:
+        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
+    },
+    {
+      title: "Flutter UI - Fashion ECommerce Part 2",
+      youtube_link: "https://www.youtube.com/embed/RhQ-nHy7MJs",
+      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
+      dribbble_link:
+        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
+    },
+    {
+      title: "Flutter UI - Job Landing",
+      youtube_link: "https://www.youtube.com/embed/rPXYkcQCQXk",
+      github_link: "https://github.com/afifudinx/flutter-job-landing",
+    },
+    {
+      title: "Flutter UI - Dark Mode Lamp",
+      youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
+      github_link: "https://github.com/afifudinx/flutter-dark-mode-lamp",
+    },
+    {
+      title: "Flutter UI - Album View",
+      youtube_link: "https://www.youtube.com/embed/0dhRQOlhY-U",
+      github_link: "https://github.com/afifudinx/flutter-album-view",
+      dribbble_link: "https://dribbble.com/shots/17461178-Album-View",
+    },
+  ];
+
+  const [search, setSearch] = useState("");
+
+  const doChangeSearch = (e: React.FormEvent<HTMLInputElement>) => {
+    setSearch(e.currentTarget.value);
+  };
+
   return (
     <div className="font-circular bg-neutral-900 text-white">
       <Head>
         <title>Flutter UI Challenge</title>
       </Head>
       <div className="min-h-screen min-w-screen max-w-screen">
-        <div className="max-w-7xl mx-auto p-2">
-          <div className="py-24">
-            <div className="relative w-48 h-48 mx-auto mb-12">
-              <Image
-                src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
-                alt="flutter"
-                fill
-              />
-            </div>
-            <h1 className="text-3xl sm:text-7xl text-center">
+        <div className="max-w-6xl mx-auto p-8">
+          <div className="p-8 text-center">
+            <h1 className="text-xl sm:text-3xl font-bold">
               Flutter UI Challenge
             </h1>
+            <p className="text-neutral-500 font-medium">
+              A curated list of Flutter UI Example including Repository
+            </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8">
-            <FlutterCard
-              title="Flutter UI - Dark Mode Lamp"
-              youtube_link="https://www.youtube.com/embed/sW5-U8oNcoM"
-              github_link="https://github.com/afifudinx/flutter-dark-mode-lamp"
+          <div className="max-w-2xl mx-auto mb-8">
+            <input
+              type="text"
+              value={search}
+              onChange={doChangeSearch}
+              className="rounded-xl border-2 border-neutral-800 focus:border-neutral-700 outline-none w-full p-4 bg-neutral-900 focus:bg-neutral-800 transition-all"
+              placeholder="Search for title"
             />
-            <FlutterCard
-              title="Flutter UI - Job Landing"
-              youtube_link="https://www.youtube.com/embed/rPXYkcQCQXk"
-              github_link="https://github.com/afifudinx/flutter-job-landing"
-            />
-            <FlutterCard
-              title="Flutter UI - Fashion ECommerce Part 2"
-              youtube_link="https://www.youtube.com/embed/RhQ-nHy7MJs"
-              github_link="https://github.com/afifudinx/flutter-fashion-ecommerce"
-              dribbble_link="https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application"
-            />
-            <FlutterCard
-              title="Flutter UI - Fashion ECommerce"
-              youtube_link="https://www.youtube.com/embed/v5UTlAf6_mU"
-              github_link="https://github.com/afifudinx/flutter-fashion-ecommerce"
-              dribbble_link="https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application"
-            />
-            <FlutterCard
-              title="Flutter UI - Spotify"
-              youtube_link="https://www.youtube.com/embed/PT8PfXvOuxg"
-              github_link="https://github.com/afifudinx/flutter-spotify"
-            />
-            <FlutterCard
-              title="Flutter UI - Album View"
-              youtube_link="https://www.youtube.com/embed/0dhRQOlhY-U"
-              github_link="https://github.com/afifudinx/flutter-album-view"
-              dribbble_link="https://dribbble.com/shots/17461178-Album-View"
-            />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pb-8">
+            {examples
+              .filter((example) =>
+                example.title.toLowerCase().includes(search.toLowerCase())
+              )
+              .map((example) => {
+                return (
+                  <FlutterCard
+                    key={example.title}
+                    title={example.title}
+                    youtube_link={example.youtube_link}
+                    github_link={example.github_link}
+                    dribbble_link={example.dribbble_link ?? ""}
+                  />
+                );
+              })}
           </div>
         </div>
       </div>
