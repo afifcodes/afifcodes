@@ -7,6 +7,11 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
+      title: "Flutter UI - Hero Animation",
+      youtube_link: "https://www.youtube.com/embed/1rOf4j8-Ma4",
+      github_link: "https://github.com/afifudinx/flutter-hero-animation",
+    },
+    {
       title: "Flutter UI - Rating App",
       youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
       github_link: "https://github.com/afifudinx/flutter-rating-app",
