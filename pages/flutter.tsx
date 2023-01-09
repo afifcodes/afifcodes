@@ -7,9 +7,10 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
-      title: "Flutter UI - Route Animation",
+      title: "Flutter UI - Simple Route Animation",
       youtube_link: "https://www.youtube.com/embed/UJM8XhvNu-k",
-      github_link: "https://github.com/afifudinx/flutter-route-animation",
+      github_link:
+        "https://github.com/afifudinx/flutter-simple-route-animation",
     },
     {
       title: "Flutter UI - Hero Animation",
