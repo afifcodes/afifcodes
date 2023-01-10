@@ -10,51 +10,51 @@ const Flutter: NextPage = () => {
       title: "Flutter UI - Simple Route Animation",
       youtube_link: "https://www.youtube.com/embed/UJM8XhvNu-k",
       github_link:
-        "https://github.com/afifudinx/flutter-simple-route-animation",
+        "https://github.com/afifcodes/flutter-simple-route-animation",
     },
     {
       title: "Flutter UI - Hero Animation",
       youtube_link: "https://www.youtube.com/embed/1rOf4j8-Ma4",
-      github_link: "https://github.com/afifudinx/flutter-hero-animation",
+      github_link: "https://github.com/afifcodes/flutter-hero-animation",
     },
     {
       title: "Flutter UI - Rating App",
       youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
-      github_link: "https://github.com/afifudinx/flutter-rating-app",
+      github_link: "https://github.com/afifcodes/flutter-rating-app",
     },
     {
       title: "Flutter UI - Dark Mode Lamp",
       youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
-      github_link: "https://github.com/afifudinx/flutter-dark-mode-lamp",
+      github_link: "https://github.com/afifcodes/flutter-dark-mode-lamp",
     },
     {
       title: "Flutter UI - Job Landing",
       youtube_link: "https://www.youtube.com/embed/rPXYkcQCQXk",
-      github_link: "https://github.com/afifudinx/flutter-job-landing",
+      github_link: "https://github.com/afifcodes/flutter-job-landing",
     },
     {
       title: "Flutter UI - Fashion ECommerce Part 2",
       youtube_link: "https://www.youtube.com/embed/RhQ-nHy7MJs",
-      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
+      github_link: "https://github.com/afifcodes/flutter-fashion-ecommerce",
       dribbble_link:
         "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
     },
     {
       title: "Flutter UI - Fashion ECommerce",
       youtube_link: "https://www.youtube.com/embed/v5UTlAf6_mU",
-      github_link: "https://github.com/afifudinx/flutter-fashion-ecommerce",
+      github_link: "https://github.com/afifcodes/flutter-fashion-ecommerce",
       dribbble_link:
         "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
     },
     {
       title: "Flutter UI - Spotify",
       youtube_link: "https://www.youtube.com/embed/PT8PfXvOuxg",
-      github_link: "https://github.com/afifudinx/flutter-spotify",
+      github_link: "https://github.com/afifcodes/flutter-spotify",
     },
     {
       title: "Flutter UI - Album View",
       youtube_link: "https://www.youtube.com/embed/0dhRQOlhY-U",
-      github_link: "https://github.com/afifudinx/flutter-album-view",
+      github_link: "https://github.com/afifcodes/flutter-album-view",
       dribbble_link: "https://dribbble.com/shots/17461178-Album-View",
     },
   ];
@@ -70,9 +70,9 @@ const Flutter: NextPage = () => {
       <NextSeo
         title="Flutter UI Challenge | Afifudin"
         description="A curated list of Flutter UI Example including Repository"
-        canonical="https://afifudinx.vercel.app/flutter/"
+        canonical="https://afifcodes.vercel.app/flutter/"
         openGraph={{
-          url: "https://afifudinx.vercel.app/flutter/",
+          url: "https://afifcodes.vercel.app/flutter/",
           description:
             "A curated list of Flutter UI Example including Repository",
           siteName: "Flutter UI Challenge | Afifudin",

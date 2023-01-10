@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://afifudinx.vercel.app",
+  siteUrl: "https://afifcodes.vercel.app",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
 };

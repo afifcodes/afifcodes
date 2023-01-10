@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://afifudinx.vercel.app
+Host: https://afifcodes.vercel.app
 
 # Sitemaps
-Sitemap: https://afifudinx.vercel.app/sitemap.xml
+Sitemap: https://afifcodes.vercel.app/sitemap.xml
