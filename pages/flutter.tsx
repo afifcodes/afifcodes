@@ -7,75 +7,42 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
-      title: "Flutter UI - Select Image Example",
+      title: "Flutter UI - Rating App",
+      youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
+      github_link: "https://github.com/afifcodes/flutter-rating-app-ui",
+    },
+    {
+      title: "Flutter UI - Select Image",
       youtube_link: "https://www.youtube.com/embed/l1irwebgm9k",
       github_link: "https://github.com/afifcodes/flutter-select-image-example",
     },
     {
       title: "Flutter UI - Onboarding",
       youtube_link: "https://www.youtube.com/embed/ZJ1pl-TImYE",
-      github_link: "https://github.com/afifcodes/flutter-onboarding",
+      github_link: "https://github.com/afifcodes/flutter-onboarding-ui",
     },
     {
       title: "Flutter UI - Draggable Image",
       youtube_link: "https://www.youtube.com/embed/ImyD5gclg7c",
-      github_link: "https://github.com/afifcodes/flutter-draggable-image",
+      github_link:
+        "https://github.com/afifcodes/flutter-draggable-image-example",
     },
     {
       title: "Flutter UI - Video Call",
       youtube_link: "https://www.youtube.com/embed/1dKSHYxuuKE",
-      github_link: "https://github.com/afifcodes/flutter-video-call",
+      github_link: "https://github.com/afifcodes/flutter-video-call-ui",
     },
     {
       title: "Flutter UI - Simple Route Animation",
       youtube_link: "https://www.youtube.com/embed/UJM8XhvNu-k",
       github_link:
-        "https://github.com/afifcodes/flutter-simple-route-animation",
+        "https://github.com/afifcodes/flutter-simple-route-animation-example",
     },
     {
       title: "Flutter UI - Hero Animation",
       youtube_link: "https://www.youtube.com/embed/1rOf4j8-Ma4",
-      github_link: "https://github.com/afifcodes/flutter-hero-animation",
-    },
-    {
-      title: "Flutter UI - Rating App",
-      youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
-      github_link: "https://github.com/afifcodes/flutter-rating-app",
-    },
-    {
-      title: "Flutter UI - Dark Mode Lamp",
-      youtube_link: "https://www.youtube.com/embed/sW5-U8oNcoM",
-      github_link: "https://github.com/afifcodes/flutter-dark-mode-lamp",
-    },
-    {
-      title: "Flutter UI - Job Landing",
-      youtube_link: "https://www.youtube.com/embed/rPXYkcQCQXk",
-      github_link: "https://github.com/afifcodes/flutter-job-landing",
-    },
-    {
-      title: "Flutter UI - Fashion ECommerce Part 2",
-      youtube_link: "https://www.youtube.com/embed/RhQ-nHy7MJs",
-      github_link: "https://github.com/afifcodes/flutter-fashion-ecommerce",
-      dribbble_link:
-        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
-    },
-    {
-      title: "Flutter UI - Fashion ECommerce",
-      youtube_link: "https://www.youtube.com/embed/v5UTlAf6_mU",
-      github_link: "https://github.com/afifcodes/flutter-fashion-ecommerce",
-      dribbble_link:
-        "https://dribbble.com/shots/20257137-Fashion-Ecommerce-Application",
-    },
-    {
-      title: "Flutter UI - Spotify",
-      youtube_link: "https://www.youtube.com/embed/PT8PfXvOuxg",
-      github_link: "https://github.com/afifcodes/flutter-spotify",
-    },
-    {
-      title: "Flutter UI - Album View",
-      youtube_link: "https://www.youtube.com/embed/0dhRQOlhY-U",
-      github_link: "https://github.com/afifcodes/flutter-album-view",
-      dribbble_link: "https://dribbble.com/shots/17461178-Album-View",
+      github_link:
+        "https://github.com/afifcodes/flutter-hero-animation-example",
     },
   ];
 
@@ -134,7 +101,6 @@ const Flutter: NextPage = () => {
                     title={example.title}
                     youtube_link={example.youtube_link}
                     github_link={example.github_link}
-                    dribbble_link={example.dribbble_link ?? ""}
                   />
                 );
               })}
