@@ -3,9 +3,13 @@ import { NextSeo } from "next-seo";
 import Head from "next/head";
 import { useState } from "react";
 import FlutterCard from "../components/molecules/FlutterCard";
-
 const Flutter: NextPage = () => {
   const examples = [
+    {
+      title: "Flutter UI - Instagram Search",
+      youtube_link: "https://www.youtube.com/embed/5jSqwk_noDM",
+      github_link: "https://github.com/afifcodes/flutter-instagram-search-ui",
+    },
     {
       title: "Flutter UI - Rating App",
       youtube_link: "https://www.youtube.com/embed/D6mXQFjSYtk",
