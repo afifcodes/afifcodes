@@ -6,6 +6,12 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
+      title: "Flutter UI - Fade Animation",
+      youtube_link: "https://www.youtube.com/embed/DoSa6E5ST1Q",
+      github_link:
+        "https://github.com/afifcodes/flutter-fade-animation-example",
+    },
+    {
       title: "Flutter UI - Instagram Search",
       youtube_link: "https://www.youtube.com/embed/5jSqwk_noDM",
       github_link: "https://github.com/afifcodes/flutter-instagram-search-ui",
