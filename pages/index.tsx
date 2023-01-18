@@ -10,9 +10,9 @@ const Home: NextPage = () => {
       <NextSeo
         title="Afifudin | Freelancer | Content Creator"
         description="I Build An App and Sharing My Thoughts | Available For Hire"
-        canonical="https://afifudinx.vercel.app/"
+        canonical="https://afifcodes.vercel.app/"
         openGraph={{
-          url: "https://afifudinx.vercel.app/",
+          url: "https://afifcodes.vercel.app/",
           description:
             "I Build An App and Sharing My Thoughts | Available For Hire",
           siteName: "Afifudin | Freelancer | Content Creator",
