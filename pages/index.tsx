@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { NextSeo } from "next-seo";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +7,19 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <div className="font-circular bg-neutral-900 text-white">
+      <NextSeo
+        title="Afifudin | Freelancer | Content Creator"
+        description="I Build An App and Sharing My Thoughts | Available For Hire"
+        canonical="https://afifudinx.vercel.app/"
+        openGraph={{
+          url: "https://afifudinx.vercel.app/",
+          description:
+            "I Build An App and Sharing My Thoughts | Available For Hire",
+          siteName: "Afifudin | Freelancer | Content Creator",
+          type: "website",
+          locale: "id_ID",
+        }}
+      />
       <Head>
         <title>Afifudin | Freelancer | Content Creator</title>
       </Head>
