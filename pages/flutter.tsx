@@ -6,6 +6,11 @@ import FlutterCard from "../components/molecules/FlutterCard";
 const Flutter: NextPage = () => {
   const examples = [
     {
+      title: "Flutter UI - Job App",
+      youtube_link: "https://www.youtube.com/embed/ln2NfGeKsCU",
+      github_link: "https://github.com/afifcodes/flutter-job-app-ui",
+    },
+    {
       title: "Flutter UI - Empty State",
       youtube_link: "https://www.youtube.com/embed/lQ7dOadEvkg",
       github_link: "https://github.com/afifcodes/flutter-empty-state-ui",
